@@ -67,3 +67,10 @@ export default tseslint.config([
   },
 ])
 ```
+
+# Additional comments
+The regular tailwindcss version that installs is the 4.x version, which is not compatible with the project right now. So please use this command instead:
+
+```
+npm install -D tailwindcss@^3.4.0
+```
